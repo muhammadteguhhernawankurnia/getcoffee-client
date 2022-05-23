@@ -1,0 +1,538 @@
+/* default padding margin dibiasakan 0 */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+}
+
+.container {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+nav {
+  height: 64px;
+  display: flex;
+  padding: 50px 0 50px 0;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.logo img {
+  height: 33px;
+  width: 30px;
+}
+
+.coffee-shop {
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.navigation {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.login-btn {
+  width: 150px;
+  height: 40px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  width: 150px;
+  height: 40px;
+  border: none;
+  background: rgb(221, 219, 216);
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.sign-up-btn {
+  width: 150px;
+  height: 40px;
+  border: none;
+  background: rgba(255, 186, 51, 1);
+  cursor: pointer;
+  border-radius: 25px;
+  color: rgba(106, 64, 41, 1);
+  font-size: 16px;
+}
+
+.sign-up-btn:active {
+  background: rgb(245, 172, 28);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-list {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+
+.content {
+  width: 100%;
+  height: 500px;
+  background-image: url("assets/home-images/home-img-1.jpg");
+  background-size: cover;
+  background-position: 0 58%;
+}
+
+.start-your {
+  padding-top: 80px;
+  font-weight: 700;
+  font-size: 50px;
+  color: white;
+}
+.we-provide {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+}
+.get-started-btn {
+  width: 250px;
+  height: 60px;
+  left: 150px;
+  top: 48px;
+  border: none;
+  background: rgba(255, 186, 51, 1);
+  cursor: pointer;
+  border-radius: 15px;
+  color: rgba(106, 64, 41, 1);
+  font-size: 16px;
+  font-family: 700;
+}
+.get-started-btn:active {
+  background: rgb(245, 172, 28);
+}
+
+.content-2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+  margin-top: 50px;
+  box-shadow: 1px 39px 70px -46px rgba(0, 0, 0, 0.22);
+  -webkit-box-shadow: 1px 39px 70px -46px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: 1px 39px 70px -46px rgba(0, 0, 0, 0.22);
+}
+
+.staff {
+  display: flex;
+  width: 20px;
+  height: 18px;
+  top: 3.6px;
+  left: 3.6px;
+  background-color: rgb(245, 172, 28);
+  border-radius: 75%;
+  padding: 10px;
+}
+
+.staff-text {
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.location {
+  display: flex;
+  width: 20px;
+  height: 18px;
+  top: 3.6px;
+  left: 3.6px;
+  background-color: rgb(245, 172, 28);
+  border-radius: 75%;
+  padding: 10px;
+}
+
+.location-text {
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.love {
+  display: flex;
+  width: 20px;
+  height: 18px;
+  top: 3.6px;
+  left: 3.6px;
+  background-color: rgb(245, 172, 28);
+  border-radius: 75%;
+  padding: 10px;
+}
+
+.love-text {
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.content-3 {
+  display: flex;
+}
+
+.content-3 img {
+  padding-left: 0;
+  margin-top: 0;
+  display: block;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 570px;
+  height: 470px;
+}
+
+/* .content-3-text {
+  font-weight: 700;
+  font-size: 35px;
+  margin-top: 170px;
+} */
+
+.we-provide-good {
+  font-weight: 700;
+  font-size: 35px;
+  color: #000;
+  margin-top: 70px;
+}
+
+.you-can {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(79, 86, 101, 1);
+  margin-top: 20px;
+}
+
+.specification {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.specification-1 {
+  display: flex;
+  margin: 20px;
+}
+
+.text-green {
+  color: rgba(47, 171, 115, 1);
+}
+
+.pl-5 {
+  padding-left: 5px;
+}
+
+.here-is {
+  font-weight: 500;
+  font-size: 35px;
+  text-align: center;
+  color: rgba(11, 19, 42, 1);
+  margin-top: 50px;
+}
+
+.lets-choose {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: rgba(79, 86, 101, 1);
+  margin-top: 30px;
+}
+
+.content-5 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.content-5 img {
+  width: 189px;
+  height: 189px;
+  border-radius: 50%;
+  background-position: 20% 20%;
+  margin-top: 150px;
+}
+
+.content-5-hazelnut {
+  display: flex;
+  flex-direction: column;
+}
+
+.hazelnut-title {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.hazelnut {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.hazelnut-price {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.hazelnut-btn {
+  width: 250px;
+  height: 60px;
+  left: 150px;
+  top: 48px;
+  border: 1px solid rgba(255, 186, 51, 1);
+  background: transparent;
+  cursor: pointer;
+  border-radius: 25px;
+  color: rgba(106, 64, 41, 1);
+  font-size: 16px;
+  font-family: 700;
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+.content-5-pinky {
+  display: flex;
+  flex-direction: column;
+}
+
+.pinky-title {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.pinky {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.pinky-price {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.pinky-btn {
+  width: 250px;
+  height: 60px;
+  left: 150px;
+  top: 48px;
+  border: 1px solid rgba(255, 186, 51, 1);
+  background: transparent;
+  cursor: pointer;
+  border-radius: 25px;
+  color: rgba(106, 64, 41, 1);
+  font-size: 16px;
+  font-family: 700;
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+.content-5-chicken {
+  display: flex;
+  flex-direction: column;
+}
+
+.chicken-title {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.chicken {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.chicken-price {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.chicken-btn {
+  width: 250px;
+  height: 60px;
+  left: 150px;
+  top: 48px;
+  border: none;
+  background: rgba(255, 186, 51, 1);
+  cursor: pointer;
+  border-radius: 25px;
+  color: rgba(106, 64, 41, 1);
+  font-size: 16px;
+  font-family: 700;
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+.content-6 img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 400;
+  background-size: cover;
+  margin-top: 25px;
+}
+
+.visit-our {
+  text-align: center;
+  font-weight: 500;
+  font-size: 35px;
+  margin-top: 50px;
+}
+
+.see-our {
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 50px;
+}
+
+.our-partner {
+  text-align: center;
+  font-weight: 500;
+  font-size: 35px;
+  margin-top: 70px;
+}
+.content-7-partner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.content-7 img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 190px;
+  height: 60px;
+  left: 100px;
+  margin-top: 50px;
+  margin-left: 100px;
+  filter: grayscale(100%);
+}
+
+.loved-of {
+  text-align: center;
+  font-weight: 500;
+  font-size: 35px;
+  margin-top: 50px;
+}
+
+.these-are {
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 50px;
+}
+
+.content-8-loved-of {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.content-8-these-are {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.content-9 img {
+  border-radius: 75%;
+  width: 50px;
+  height: 50px;
+  left: 180px;
+  top: 4184px;
+  margin-top: 70px;
+}
+
+.text-yellow {
+  color: rgba(255, 186, 51, 1);
+}
+
+.text-chocolatte {
+  color: rgba(106, 64, 41, 1);
+  font-size: 40px;
+}
+
+.content-10 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.promo-today-content-10 {
+  font-weight: 500;
+  font-size: 35px;
+  margin-top: 50px;
+}
+
+.see-promo-btn {
+  width: 250px;
+  height: 60px;
+  left: 150px;
+  top: 48px;
+  border: none;
+  background: rgba(255, 186, 51, 1);
+  cursor: pointer;
+  border-radius: 15px;
+  color: rgba(106, 64, 41, 1);
+  font-size: 16px;
+  font-family: 700;
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 75px;
+}
+
+.product-title {
+  font-weight: 500;
+  font-size: 23px;
+}
+
+.details-product {
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.engage-title {
+  font-weight: 500;
+  font-size: 23px;
+}
+
+.details-engage {
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 15px;
+}

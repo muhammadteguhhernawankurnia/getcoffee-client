@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Profile</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="assets/sign up images/coffee-1.png" alt="coffee-logo">
+            <p class="coffee-shop-text">Coffee Shop</p>
+        </div>
+        <div class="navigation">
+            <p class="navigation-list">Home</p>
+            <p class="navigation-list">Product</p>
+            <p class="navigation-list">Your Cart</p>
+            <p class="navigation-list">History</p> 
+        </div>
+        <div class="helper">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-comments"></i>
+            <img src="assets/profile-images/photo-profil.png" alt="profil">
+        </div>
+    </nav>
+    <div class="content">
+        <div class="main-content container">
+            <p class="title">User Profile</p>
+            <div class="display-box">
+                <div class="left-content">
+                    <img class="photo-profil" src="assets/profile-images/photo-profil.png" alt="photo-profil">
+                    <p class="user-name">Zulaikha</p>
+                    <p class="user-email">zulaikha17@gmail.com</p>
+                    <button class="choose-photo-btn">Choose Photo</button>
+                    <button class="remove-photo-btn">Remove Photo</button>
+                    <button class="edit-password-btn">Edit Password</button>
+                    <button class="do-you-btn">Do you want to save <br>the changes?</button>
+                    <button class="save-change-btn">Save Change</button>
+                    <button class="cancel-btn">Cancel</button>
+                    <button class="logout-btn">Log out</button>
+                </div>
+                <div class="right-content">
+                    <div class="contact">
+                        <p class="title">Contact</p>
+                        <form>
+                            <div class="left-form">
+                                <label for="email">Email Address :</label>
+                                <input id="email" type="mail">
+                                <label for="delivery-address">Delivery address :</label>
+                                <input id="delivery-address" type="text">
+                            </div>
+                            <div class="right-form">
+                                <label for="mobile-number">Mobile number : </label>
+                                <input id="mobile-number" type="number">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="details">
+                        <p class="title">Details</p>
+                        <form>
+                            <div class="left-form">
+                                <label for="display">Display name :</label>
+                                <input id="display" type="text">
+                                <label for="first-name">First name :</label>
+                                <input id="first-name" type="text">
+                                <label for="last-name">Last name :</label>
+                                <input id="last-name" type="text">
+                            </div>
+                            <div class="right-form">
+                                <label for="birth">DD/MM/YY : </label>
+                                <input id="birth" type="date">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="radio-gender">
+                        <input type="radio" id="male-id" name="male-gender" value="Male">
+                        <label for="male">Male</label><br>
+                        <input type="radio" id="female-id" name="female-gender" value="Female">
+                        <label for="female">Female</label><br>
+                    </div>
+                    <!-- <p class="right-content-title">Contacs</p>
+                    <label for="email-address" class="email-address">Email Address :</label>
+                    <input type="email" class="input-email" placeholder="Input Email Address">
+                    <label for="delivery-address" class="delivery-address">Delivery Address :</label>
+                    <input type="text" class="input-address" placeholder="Input Delivery Address">
+                    <label for="mobile-number" class="mobile-number">Mobile Number :</label>
+                    <input type="number" class="input-number" placeholder="Input Mobile Number">
+
+                    <p class="right-content-title">Details</p>
+                    <label for="display-name" class="display-name">Display Name :</label>
+                    <input type="display-name" class="input-display-name" placeholder="Input Display Name">
+                    <label for="first-name" class="first-name">First Name :</label>
+                    <input type="first-name" class="first-name" placeholder="Input First Name">
+                    <label for="last-name" class="last-name">Last Name :</label>
+                    <input type="last-name" class="input-last-name" placeholder="Input Last Name">
+                    <label for="ddmmyy" class="ddmmyy">DD/MM/YY :</label>
+                    <input type="ddmmyy" class="input-ddmmyy" placeholder="Input DD/MM/YY">
+
+                    <div class="radio-gender">
+                        <input type="radio" id="male-id" name="male-gender" value="Male">
+                        <label for="male">Male</label><br>
+                        <input type="radio" id="female-id" name="female-gender" value="Female">
+                        <label for="female">Female</label><br>
+                    </div> -->
+                    
+                </div>
+            </div>
+        </div>
+                    <!-- content footer -->
+                    <div class="footer">
+                        <div class="left-footer">
+                            <div class="logo">
+                                <img src="assets/sign up images/coffee-1.png" alt="coffee-logo">
+                                <p>Coffee shop</p>
+                            </div>
+                            <div class="about">
+                                <p>Coffee Shop is a store that sells some good meals, and especially coffee. We provide high quality beans</p>
+                            </div>
+                            <div class="social-media">
+                                <div class="facebook">
+                                    <img src="assets/sign up images/facebook-logo.png" alt="fb">
+                                </div>
+                                <div class="twitter">
+                                    <img src="assets/sign up images/twitter-logo.png" alt="tw">
+                                </div>
+                                <div class="instagram">
+                                    <img src="assets/sign up images/instagram-logo.png" alt="ig">
+                                </div>
+                            </div>
+                            <p class="copyright">©2020CoffeeStore</p>
+                        </div>
+                        <div class="right-footer">
+                            <div class="product">
+                                <p class="bold">Product</p>
+                                <div class="nav">
+                                        <p>Download</p>
+                                        <p>Locations</p>
+                                        <p>Blog</p>
+                                        <p>Pricing</p>
+                                        <p>Countries</p>
+                                </div>
+                            </div>
+                            <div class="engage">
+                                <p class="bold">Engage</p>
+                                <div class="nav">
+                                        <p>Coffee Shop ?</p>
+                                        <p>FAQ</p>
+                                        <p>Terms of Service</p>
+                                        <p>About Us</p>
+                                        <p>Privacy Policy</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    </div>
+</body>
+</html>

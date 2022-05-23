@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+}
+nav {
+  height: 64px;
+  display: flex;
+  padding: 50px 0 50px 0;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  border-bottom: 1px solid #000;
+}
+
+.container {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.header {
+  height: 64px;
+  display: flex;
+  padding: 50px 0 50px 0;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.logo img {
+  height: 33px;
+  width: 30px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.coffee-shop {
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.navigation-list {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+
+.navigation-list-2 img {
+  width: 28px;
+  height: 28px;
+  border-radius: 75%;
+}
+
+.navigation-list-2 {
+  display: flex;
+  justify-content: space-evenly;
+  width: 300px;
+  font-size: 25px;
+}
+
+.promo-today {
+  padding-top: 20px;
+  color: rgba(106, 64, 41, 1);
+  font-size: 35px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.coupons-will {
+  padding-top: 10px;
+  color: rgba(0, 0, 0, 1);
+  font-size: 14px;
+  text-align: center;
+}
+
+.promo-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.promo-title img {
+  width: 85px;
+  height: 94px;
+}
+
+.promo-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  background-color: rgba(136, 183, 136, 1);
+  width: 100%;
+  height: 90px;
+  border-radius: 10px;
+}
+
+.mothers-day-1 {
+  font-weight: 100;
+  font-size: 12px;
+  text-align: left;
+}
+
+.promo-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  background-color: rgba(245, 195, 97, 1);
+  width: 100%;
+  height: 90px;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.free-coffee {
+  font-weight: 100;
+  font-size: 12px;
+  text-align: left;
+}
+
+.promo-3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  background-color: rgba(136, 183, 136, 1);
+  width: 100%;
+  height: 90px;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.mothers-day-2 {
+  font-weight: 100;
+  font-size: 12px;
+  text-align: left;
+}
+
+.promo-4 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  background-color: rgba(245, 195, 97, 1);
+  width: 100%;
+  height: 90px;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.halloween-day {
+  font-weight: 100;
+  font-size: 12px;
+  text-align: left;
+}
+
+.apply-coupon-btn {
+  width: 100%;
+  height: 40px;
+  border: none;
+  background: rgba(106, 64, 41, 1);
+  cursor: pointer;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 12px;
+  margin-top: 30px;
+  font-weight: 700;
+}
+
+.terms-and-conditions {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.navigation-menu {
+  height: 64px;
+  display: flex;
+  padding: 50px 0 50px 0;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.navigation-menu-details[data-v-active] {
+  border-bottom: 3px solid rgba(106, 64, 41, 1);
+  color: rgba(106, 64, 41, 1);
+  font-weight: 700;
+}
+
+.navigation-menu-details {
+  color: grey;
+}
+
+.main-product img {
+  width: 100%;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+
+.main-product {
+  text-align: center;
+  line-height: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.product-all {
+  align-items: center;
+  background-color: #fff;
+  width: 23%;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 2px 10px 20px -3px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 2px 10px 20px -3px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 2px 10px 20px -3px rgba(0, 0, 0, 1);
+  padding: 20px;
+  margin: 5px;
+}
+
+.price {
+  font-size: 14px;
+  font-weight: 100;
+  color: rgba(106, 64, 41, 1);
+  margin-top: 5px;
+}
+
+.the-price {
+  font-size: 12px;
+  font-weight: 100;
+  color: rgba(106, 64, 41, 1);
+  margin-top: 15px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 75px;
+}
+
+.product-title {
+  font-weight: 500;
+  font-size: 23px;
+}
+
+.details-product {
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.engage-title {
+  font-weight: 500;
+  font-size: 23px;
+}
+
+.details-engage {
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 15px;
+}
